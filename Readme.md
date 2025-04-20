@@ -10,8 +10,13 @@ pip install .
 
 ## Usage
 ```bash
-hermessmiles --file1 path/to/df1.csv --file2 path/to/df2.csv [--smiles-col SMILES]
+from hermessmiles.processor import SMILESProcessor, find_overlaps
+from hermessmiles.visualizer import Visualizer
+proc = SMILESProcessor()
+df1 = proc.process("assets/df1.csv")
+df2 = proc.process("assets/df1.csv")
+viz = Visualizer(overlaps, "output/results.html")
+viz.render()
 ```
 
 By default, the output HTML is saved as `overlap_structures_<timestamp>.html` in your working directory.
-```
