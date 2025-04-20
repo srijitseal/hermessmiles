@@ -1,3 +1,6 @@
+[![CI](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml/badge.svg)](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml)
+
+
 ```markdown
 # Hermessmiles
 
