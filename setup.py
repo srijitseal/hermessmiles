@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="hermessmiles",
-    version="0.1.2",
+    version="0.1.3",
     author="Srijit Seal",
     author_email="srijit@understanding.bio",
     description="SMILES comparison tool with overlap visualization",
