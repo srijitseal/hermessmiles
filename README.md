@@ -1,15 +1,31 @@
-[![CI](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml/badge.svg)](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml)
+<p align="center">
+  <img src="assets/logo.png" alt="hermessmiles Logo" width="200"/>
+</p>
+
+<h3 align="center">
+hermessmiles: A tool to compare two CSV files of SMILES strings, find overlapping compounds by InChIKey prefix, and generate an HTML visualization of matching structures.
+
+</h3>
 
 
-```markdown
-# Hermessmiles
 
-A tool to compare two CSV files of SMILES strings, find overlapping compounds by InChIKey prefix, and generate an HTML visualization of matching structures.
+<br/>
 
-## Installation
+[![PyPI](https://img.shields.io/pypi/v/hermessmiles.svg)](https://pypi.org/project/hermessmiles/)
+[![Python](https://img.shields.io/pypi/pyversions/hermessmiles.svg)](https://pypi.org/project/hermessmiles)
+[![Python Tests](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml/badge.svg)](https://github.com/srijitseal/hermessmiles/actions/workflows/ci.yml)
+[![Repo Size](https://img.shields.io/github/repo-size/srijitseal/hermessmiles.svg)](https://pypi.org/project/hermessmiles/)
+
+
+---
+
+## 📌 Installation
+
 ```bash
-pip install .
+pip install hermessmiles
 ```
+
+---
 
 ## Usage
 ```bash
